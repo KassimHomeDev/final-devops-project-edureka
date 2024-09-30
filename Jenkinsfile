@@ -3,7 +3,7 @@ pipeline {
         maven 'Maven3.8.7'
     }
     agent {
-        label 'dev'
+        label 'Agent01'
     }
     
     stages {
